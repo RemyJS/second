@@ -1,3 +1,9 @@
 body{
-  background-color: #ffffff;
+  background-color:pink;
+}
+p{
+  color:brown;
+}
+h2{
+  font-size: 24px;
 }
