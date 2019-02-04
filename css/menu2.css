@@ -1,0 +1,82 @@
+h1{
+  text-align: center;
+  font-family: cursive;
+  color: azure;
+  text-shadow: 2px 2px 4px #000;
+  margin: 40px 0 40px;
+}
+body{
+  background-color: rgb(2, 40, 168);
+}
+nav{
+  margin: 27px auto 0;
+  position: relative;
+  width: 590px;
+  height: 50px;
+  background-color: #535d67;
+  border: 1px solid #000;
+  border-radius: 8px;
+  box-shadow:2px 2px 4px #000;
+}
+nav a{
+  text-decoration: none;
+  line-height: 50px;
+  text-align: center;
+  height: 100%;
+  font-size: 15px;
+  text-transform: uppercase;
+  z-index: 1;
+  position: relative;
+  cursor: pointer;
+  color: #ffffff;
+  display: inline-block;
+}
+nav .anim{
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  transition: all .5s ease 0s;
+  border-radius: 8px;
+}
+a:nth-child(1){
+  width: 100px;
+}
+a:nth-child(2){
+  width: 110px;
+}
+a:nth-child(3){
+  width: 100px;
+}
+a:nth-child(4){
+  width: 140px;
+}
+a:nth-child(5){
+  width: 120px;
+}
+/* animation */
+nav .s-home , a:nth-child(1):hover ~ .anim{
+  width: 100px;
+  left: 0;
+  background-color: rgb(40, 160, 154);
+}
+nav .s-home , a:nth-child(2):hover ~ .anim{
+  width: 110px;
+  left: 100px;
+  background-color: rgb(40, 160, 154);
+}
+nav .s-home , a:nth-child(3):hover ~ .anim{
+  width: 100px;
+  left: 210px;
+  background-color: rgb(40, 160, 154);
+}
+nav .s-home , a:nth-child(4):hover ~ .anim{
+  width: 140px;
+  left: 310px;
+  background-color: rgb(40, 160, 154);
+}
+nav .s-home , a:nth-child(5):hover ~ .anim{
+  width: 140px;
+  left: 450px;
+  background-color: rgb(40, 160, 154);
+}
