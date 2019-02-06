@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
 body{
   margin:50px 30%;
 }
@@ -21,8 +22,9 @@ td{
 }
 /*table 2*/
 table#t2{
-  font-family: sans-serif;
-  font-style: 14px;
+  font-family: 'Dancing Script', cursive;
+  font-style: 26px;
+  font-weight:700;
   text-align: center;
   border-collapse: collapse;
 }
@@ -42,4 +44,17 @@ table#t2 td{
 }
 table#t2 th:first-child,table#t2 td:first-child{
   text-align:left;
+}
+
+p{
+  font-family: 'Dancing Script', cursive;
+}
+
+ul{
+  list-style: url(/ico/bell.ico) outside ;
+  
+}
+li{
+  font-size: 24px;
+  color: rgba(252, 111, 111, 0.712);
 }
